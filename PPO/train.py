@@ -148,7 +148,7 @@ if __name__ == "__main__":
 
     while True:
         
-        collect_buffer_data(env, trajectory_num, total_trajectory_num=5, buffer_size=100, folder_path=datapath)
+        trajectory_num = collect_buffer_data(env, trajectory_num, total_trajectory_num=5, buffer_size=100, folder_path=datapath)
 
         if time_step % 100 == 0:
             # every 100 timestep we save the weights
@@ -159,7 +159,7 @@ if __name__ == "__main__":
 
         single_epoch_update(pNet, vNet, batch_size=64)
 
-        reward = get_reward("./Policy_nn_weight.pth")
+        reward = get_reward(env, "./Policy_nn_weight.pth")
 
         reward_arr.append(reward)
 
