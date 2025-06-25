@@ -1,0 +1,354 @@
+solid AssimpScene
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -1 0.8 0.8
+  vertex -1 -0.8 0.8
+  vertex -0.8 -0.8 1
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -1 0.8 0.8
+  vertex -0.8 -0.8 1
+  vertex -0.8 0.8 1
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -1 0.8 -0.8
+  vertex -1 -0.8 -0.8
+  vertex -1 -0.8 0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -1 0.8 -0.8
+  vertex -1 -0.8 0.8
+  vertex -1 0.8 0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -1 0.8 -0.8
+  vertex -0.8 1 -0.8
+  vertex -0.8 0.8 -1
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 0.8 -0.8 1
+  vertex 0.8 0.8 1
+  vertex -0.8 0.8 1
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 0.8 -0.8 1
+  vertex -0.8 0.8 1
+  vertex -0.8 -0.8 1
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 0.8 -0.8 1
+  vertex 0.8 -1 0.8
+  vertex 1 -0.8 0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 1 0.8 0.8
+  vertex 1 0.8 -0.8
+  vertex 0.8 1 -0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 1 0.8 0.8
+  vertex 0.8 1 -0.8
+  vertex 0.8 1 0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 1 0.8 0.8
+  vertex 0.8 1 0.8
+  vertex 0.8 0.8 1
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 1 0.8 0.8
+  vertex 0.8 0.8 1
+  vertex 0.8 -0.8 1
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 1 0.8 0.8
+  vertex 0.8 -0.8 1
+  vertex 1 -0.8 0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.8 -1 0.8
+  vertex 0.8 -1 0.8
+  vertex 0.8 -0.8 1
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.8 -1 0.8
+  vertex 0.8 -0.8 1
+  vertex -0.8 -0.8 1
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.8 -1 0.8
+  vertex -0.8 -0.8 1
+  vertex -1 -0.8 0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.8 -1 0.8
+  vertex -1 -0.8 0.8
+  vertex -1 -0.8 -0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.8 -1 0.8
+  vertex -1 -0.8 -0.8
+  vertex -0.8 -1 -0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.8 -1 0.8
+  vertex -0.8 -1 -0.8
+  vertex 0.8 -1 -0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.8 -1 0.8
+  vertex 0.8 -1 -0.8
+  vertex 0.8 -1 0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.8 1 0.8
+  vertex -0.8 1 -0.8
+  vertex -1 0.8 -0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.8 1 0.8
+  vertex -1 0.8 -0.8
+  vertex -1 0.8 0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.8 1 0.8
+  vertex -1 0.8 0.8
+  vertex -0.8 0.8 1
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.8 1 0.8
+  vertex -0.8 0.8 1
+  vertex 0.8 0.8 1
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.8 1 0.8
+  vertex 0.8 0.8 1
+  vertex 0.8 1 0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.8 1 0.8
+  vertex 0.8 1 0.8
+  vertex 0.8 1 -0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.8 1 0.8
+  vertex 0.8 1 -0.8
+  vertex -0.8 1 -0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 1 -0.8 -0.8
+  vertex 1 -0.8 0.8
+  vertex 0.8 -1 0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 1 -0.8 -0.8
+  vertex 0.8 -1 0.8
+  vertex 0.8 -1 -0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 1 -0.8 -0.8
+  vertex 0.8 -1 -0.8
+  vertex 0.8 -0.8 -1
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 1 -0.8 -0.8
+  vertex 1 0.8 -0.8
+  vertex 1 0.8 0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 1 -0.8 -0.8
+  vertex 1 0.8 0.8
+  vertex 1 -0.8 0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.8 -0.8 -1
+  vertex -1 -0.8 -0.8
+  vertex -1 0.8 -0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.8 -0.8 -1
+  vertex -1 0.8 -0.8
+  vertex -0.8 0.8 -1
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.8 -0.8 -1
+  vertex 0.8 -0.8 -1
+  vertex 0.8 -1 -0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.8 -0.8 -1
+  vertex 0.8 -1 -0.8
+  vertex -0.8 -1 -0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.8 -0.8 -1
+  vertex -0.8 -1 -0.8
+  vertex -1 -0.8 -0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 0.8 0.8 -1
+  vertex -0.8 0.8 -1
+  vertex -0.8 1 -0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 0.8 0.8 -1
+  vertex -0.8 1 -0.8
+  vertex 0.8 1 -0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 0.8 0.8 -1
+  vertex 0.8 1 -0.8
+  vertex 1 0.8 -0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 0.8 0.8 -1
+  vertex 1 0.8 -0.8
+  vertex 1 -0.8 -0.8
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 0.8 0.8 -1
+  vertex 1 -0.8 -0.8
+  vertex 0.8 -0.8 -1
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 0.8 0.8 -1
+  vertex 0.8 -0.8 -1
+  vertex -0.8 -0.8 -1
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex 0.8 0.8 -1
+  vertex -0.8 -0.8 -1
+  vertex -0.8 0.8 -1
+  endloop
+ endfacet
+
+endsolid AssimpScene
