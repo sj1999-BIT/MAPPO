@@ -115,7 +115,11 @@ class ValueNetwork(nn.Module):
 
         x = x.permute(0, 3, 1, 2)
 
+<<<<<<< HEAD
         # print(f"input dim {x.shape}")
+=======
+        print(f"input dim {x.shape}")
+>>>>>>> 8b373f49dd7c465e4f8d0b0b9b2390b5e85e0573
 
 
         # Feature extraction
