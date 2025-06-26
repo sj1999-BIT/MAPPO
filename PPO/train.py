@@ -150,9 +150,9 @@ if __name__ == "__main__":
         
         trajectory_num = collect_buffer_data(env, trajectory_num, total_trajectory_num=5, buffer_size=100, folder_path=datapath)
 
-        if time_step % 100 == 0:
+        if time_step % 1 == 0:
             # every 100 timestep we save the weights
-            pNet.save_weights()
+            pNet.save_weights() 
             vNet.save_weights()
             append_values_to_file(reward_arr, "./reward_plot.txt")
             reward_arr = []
