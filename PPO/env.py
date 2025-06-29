@@ -13,10 +13,7 @@ from typing import List
 
 import cv2
 import numpy as np
-<<<<<<< HEAD
 import logging
-=======
->>>>>>> 8b373f49dd7c465e4f8d0b0b9b2390b5e85e0573
 
 
 from controller import Controller
@@ -197,15 +194,12 @@ class FinalEnv(Env):
 
         self.frame_skip = frame_skip
         self.window = False
-<<<<<<< HEAD
 
         # Clear SAPIEN logger before creating engine
         if 'SAPIEN' in logging.Logger.manager.loggerDict:
             logging.getLogger('SAPIEN').handlers.clear()
             del logging.Logger.manager.loggerDict['SAPIEN']
 
-=======
->>>>>>> 8b373f49dd7c465e4f8d0b0b9b2390b5e85e0573
         self.engine = sapien.Engine(0, 0.001, 0.005)
         self.renderer = sapien.OptifuserRenderer(config=render_config)
         self.renderer.enable_global_axes(False)

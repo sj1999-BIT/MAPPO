@@ -44,11 +44,7 @@ def collect_buffer_data(env: FinalEnv, trajectory_num = 0, total_trajectory_num=
 
     # based on number of trajectories we are collecting
     for i in range(total_trajectory_num):
-<<<<<<< HEAD
         trajectory_num += 1
-=======
-        trajectory_num += i
->>>>>>> 8b373f49dd7c465e4f8d0b0b9b2390b5e85e0573
 
         # replace the oldest buffer
         if trajectory_num >= buffer_size:
@@ -92,17 +88,10 @@ def collect_buffer_data(env: FinalEnv, trajectory_num = 0, total_trajectory_num=
             for _ in range(env.frame_skip):
                 env.step()
 
-<<<<<<< HEAD
 
     # env.end_episode()
     # env.close()
     return trajectory_num
-=======
-        trajectory_num += 1
-
-    env.end_episode()
-    env.close()
->>>>>>> 8b373f49dd7c465e4f8d0b0b9b2390b5e85e0573
 
 
 def get_TD_error(valueNet: ValueNetwork, cur_states_folder_path, reward_arr, discount_factor=0.9):
@@ -217,20 +206,11 @@ def generate_PPO_training_batch(data_folder_path, pNet:PolicyNetwork ,vNet:Value
     }
 
 
-<<<<<<< HEAD
 def get_reward(env, weight_path, total_time_step=200):
-=======
-def get_reward(weight_path, total_time_step=200):
->>>>>>> 8b373f49dd7c465e4f8d0b0b9b2390b5e85e0573
     """
     Test the effectiveness of the pNet
     """
 
-<<<<<<< HEAD
-    # env = FinalEnv()
-=======
-    env = FinalEnv()
->>>>>>> 8b373f49dd7c465e4f8d0b0b9b2390b5e85e0573
     env.reset()
 
     controller = SinglePolicyController(policy_weight_path=weight_path)

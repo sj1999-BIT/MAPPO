@@ -147,31 +147,19 @@ if __name__ == "__main__":
 
 
     while True:
-        
-<<<<<<< HEAD
-        trajectory_num = collect_buffer_data(env, trajectory_num, total_trajectory_num=5, buffer_size=100, folder_path=datapath)
+
+        collect_buffer_data(env, trajectory_num, total_trajectory_num=5, buffer_size=100, folder_path=datapath)
 
         if time_step % 1 == 0:
             # every 100 timestep we save the weights
-            pNet.save_weights() 
-=======
-        collect_buffer_data(env, trajectory_num, total_trajectory_num=5, buffer_size=100, folder_path=datapath)
-
-        if time_step % 100 == 0:
-            # every 100 timestep we save the weights
             pNet.save_weights()
->>>>>>> 8b373f49dd7c465e4f8d0b0b9b2390b5e85e0573
             vNet.save_weights()
             append_values_to_file(reward_arr, "./reward_plot.txt")
             reward_arr = []
 
         single_epoch_update(pNet, vNet, batch_size=64)
 
-<<<<<<< HEAD
         reward = get_reward(env, "./Policy_nn_weight.pth")
-=======
-        reward = get_reward("./Policy_nn_weight.pth")
->>>>>>> 8b373f49dd7c465e4f8d0b0b9b2390b5e85e0573
 
         reward_arr.append(reward)
 
